@@ -1,7 +1,7 @@
-# Directadmin-1.595-Nulled
-Directadmin 1.595 Nulled
+# Directadmin-1.60.1-Nulled
+Directadmin 1.60.1 Nulled + Working License File
 
-Directadmin-1.595-Nulled For Centos 7 64bit
+Directadmin-1.60.1-Nulled For Centos 7 64bit
 
 [root@sucuri ~]# yum -y install nano wget perl
 
@@ -14,13 +14,19 @@ Directadmin-1.595-Nulled For Centos 7 64bit
 Client ID (uid):  9192
 License ID (lid): 919233
 
-[root@sucuri ~]# firewall-cmd --zone=public --add-port=2222/tcp --permanent
-
 [root@sucuri ~]# firewall-cmd --zone=public --add-port=21/tcp --permanent
+
+[root@sucuri ~]# firewall-cmd --zone=public --add-port=22/tcp --permanent
+
+[root@sucuri ~]# firewall-cmd --zone=public --add-port=25/tcp --permanent
 
 [root@sucuri ~]# firewall-cmd --zone=public --add-port=80/tcp --permanent
 
-[root@sucuri ~]# firewall-cmd --zone=public --add-port=25/tcp --permanent
+[root@sucuri ~]# firewall-cmd --zone=public --add-port=443/tcp --permanent
+
+[root@sucuri ~]# firewall-cmd --zone=public --add-port=465/tcp --permanent
+
+[root@sucuri ~]# firewall-cmd --zone=public --add-port=2222/tcp --permanent
 
 [root@sucuri ~]# firewall-cmd --reload
 
