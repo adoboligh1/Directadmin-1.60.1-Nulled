@@ -868,7 +868,7 @@ fi
 
 if [ $CMD_LINE -eq 0 ]; then
 
-	PHP_V_DEF=5.6
+	PHP_V_DEF=7.3
 	PHP_M_DEF=mod_php
 	PHP_RUID_DEF=yes
 
@@ -876,7 +876,7 @@ if [ $CMD_LINE -eq 0 ]; then
 		onetwo=1
 	elif [ "${SERVICES}" = "services_debian90_64.tar.gz" ] || [ "${SERVICES}" = "services_debian100_64.tar.gz" ]; then
 		onetwo=1
-		PHP_V_DEF=5.6
+		PHP_V_DEF=7.3
 		PHP_M_DEF=php-fpm
 		PHP_RUID_DEF=no
 	else
